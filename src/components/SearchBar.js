@@ -15,7 +15,7 @@ export default function SearchBar() {
     const [placeList, SetplaceList] = useState([]);
     const GetplaceList = async (query) => {
         console.log(query);
-        const temp = await fetch(`http://127.0.0.1:5000/place`).then(res => res.json());
+        const temp = await fetch(`https://travel-buddy-api-personal.herokuapp.com/place`).then(res => res.json());
         Object.values(temp).map(item => {
             SetplaceList(item);
         });
@@ -23,7 +23,7 @@ export default function SearchBar() {
     const [hotelsList, SethotelsList] = useState([]);
     const GethotelsList = async (query) => {
         console.log(query);
-        const temp = await fetch(`http://127.0.0.1:5000/hotel`).then(res => res.json());
+        const temp = await fetch(`https://travel-buddy-api-personal.herokuapp.com/hotel`).then(res => res.json());
         Object.values(temp).map(item => {
             SethotelsList(item);
         });
@@ -31,7 +31,7 @@ export default function SearchBar() {
     const [marketList, SetmarketList] = useState([]);
     const GetmarketList = async (query) => {
         console.log(query);
-        const temp = await fetch(`http://127.0.0.1:5000/market`).then(res => res.json());
+        const temp = await fetch(`https://travel-buddy-api-personal.herokuapp.com/market`).then(res => res.json());
         Object.values(temp).map(item => {
             SetmarketList(item);
         });
