@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.605c737d.css",
+    "main.js": "/static/js/main.38628349.js",
+    "static/js/787.64d558cc.chunk.js": "/static/js/787.64d558cc.chunk.js",
+    "static/media/land-back.jpg": "/static/media/land-back.e469ab7c03bb2447a0ce.jpg",
+    "index.html": "/index.html",
+    "main.605c737d.css.map": "/static/css/main.605c737d.css.map",
+    "main.38628349.js.map": "/static/js/main.38628349.js.map",
+    "787.64d558cc.chunk.js.map": "/static/js/787.64d558cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.605c737d.css",
+    "static/js/main.38628349.js"
+  ]
+}
